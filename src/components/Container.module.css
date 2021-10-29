@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  width: 100vw;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.wrapper h1 {
+  font-family: "Sacramento", cursive;
+}
