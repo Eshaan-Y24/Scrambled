@@ -1,0 +1,10 @@
+.wrapper {
+  float: left;
+  background-color: rgb(173, 173, 173);
+  height: 100vh;
+  margin-right: 1rem;
+}
+
+.image {
+  width: 15rem;
+}

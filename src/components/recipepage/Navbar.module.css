@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 1rem;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #000;
+}
+
+.logo {
+  font-family: "Sacramento", cursive;
+  display: inline-block;
+  margin: 0;
+}
+.navbar ul {
+  display: inline-block;
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 2rem 0 2rem;
+}

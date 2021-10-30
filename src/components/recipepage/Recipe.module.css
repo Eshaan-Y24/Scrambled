@@ -1,0 +1,23 @@
+.image {
+  max-width: 15rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+.wrapper {
+  background-color: grey;
+  overflow: hidden;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 40rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

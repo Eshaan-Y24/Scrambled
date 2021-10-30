@@ -4,7 +4,7 @@ import React from "react";
 
 const Container2 = () => {
   return (
-    <div>
+    <div className={classes.wrapper}>
       <h1>container 2</h1>
     </div>
   );

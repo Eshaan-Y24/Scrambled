@@ -1,0 +1,89 @@
+.container {
+  background-image: url("../../images/food.jpg");
+  z-index: -1;
+}
+
+.wrapper {
+  z-index: -1;
+  display: flex;
+  max-width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.301);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.left {
+  z-index: -1;
+  z-index: -1;
+  width: 30%;
+  background-color: rgba(218, 218, 218, 0.452);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  animation: slides 3s ease 1s infinite;
+}
+
+.left:hover {
+  animation: unset;
+}
+
+@keyframes slides {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 3%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.right {
+  width: 70%;
+  z-index: -1;
+}
+
+.wrapper h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+}
+
+.wrapper {
+  color: white;
+  z-index: -1;
+}
+
+.btn {
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  width: 5rem;
+  margin: 0 auto 0 auto;
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+
+.input {
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.3rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+  width: 70%;
+  font-size: 1rem;
+}
+
+.input:focus {
+  transition: 0.3s;
+  width: 80%;
+}
